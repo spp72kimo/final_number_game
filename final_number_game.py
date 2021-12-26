@@ -18,7 +18,7 @@ while True: # 判斷數字區間
 		MAX = key
 	elif key < ans:
 		MIN = key
-	print(MIN, '~', MAX, '，', end = '')
+	print(MIN, '~', MAX, end = '')
 	key = input('，請猜密碼：')
 	key = int(key)
 
